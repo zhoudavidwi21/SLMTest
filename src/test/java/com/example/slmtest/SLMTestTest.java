@@ -22,4 +22,19 @@ public class SLMTestTest {
         //is expected == result
         assertEquals(expected, result);
     }
+
+    @Test
+    void stoneToKiloTest(){
+        //Arrange
+        double a = 1.;
+
+        double expected = 6.35;
+
+        //Act
+        double result = slmTest.stoneToKilo(1);
+
+        //Assert
+        //is expected == result
+        assertEquals(expected, result);
+    }
 }
