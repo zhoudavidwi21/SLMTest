@@ -16,4 +16,9 @@ public class SLMTestController {
         return slmTest.ounceToGram(oz);
     }
 
+    @RequestMapping("/stoneToKilo")
+    public double stoneToKilo(@RequestParam double stone){
+        return slmTest.stoneToKilo(stone);
+    }
+
 }
